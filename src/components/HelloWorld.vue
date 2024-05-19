@@ -1,12 +1,7 @@
-<script setup lang="ts">
-defineProps<{
-  msg: string
-}>()
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
     <h3>
       You’ve successfully created a project with
       <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
@@ -15,7 +10,8 @@ defineProps<{
   </div>
 </template>
 
-<style scoped>
+<!-- style scoped = APPLIES TO CURRENT COMPONENT ONLY -->
+<!-- <style scoped>
 h1 {
   font-weight: 500;
   font-size: 2.6rem;
@@ -38,4 +34,4 @@ h3 {
     text-align: left;
   }
 }
-</style>
+</style> -->
